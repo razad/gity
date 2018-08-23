@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_main_startThread"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="Start Thread" />
+
+    <Button
+        android:id="@+id/btn_main_asyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Async Task"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btn_main_Handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Handler"
+        android:onClick="onClick"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar_main"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:visibility="invisible"
+        android:indeterminate="false" />
+
+
+</LinearLayout>

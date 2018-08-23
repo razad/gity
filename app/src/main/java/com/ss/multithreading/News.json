@@ -1,0 +1,20 @@
+{
+  "id": 1,
+  "title": "New News",
+  "date": "Aug. 19, 2018",
+  "tags": [
+    {
+      "id": 2,
+      "name": "political"
+    },
+    {
+      "id": 3,
+      "name": "usa"
+    }
+  ],
+  "keywords":[
+    "trump",
+    "news",
+    "president"
+  ]
+}
